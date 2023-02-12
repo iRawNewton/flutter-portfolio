@@ -81,8 +81,14 @@ flutter:
     - family: SourceSansPro
       fonts:
         - asset: assets/fonts/SourceSansPro-Regular.ttf
+    - family: DosisRegular
+      fonts:
+        - asset: assets/fonts/Dosis-Regular.ttf
+    - family: SecularOneRegular
+      fonts:
+        - asset: assets/fonts/SecularOne-Regular.ttf
        
-  #   - family: Trajan Pro
+  #   - family: Trajan Pro SecularOne-Regular
   #     fonts:SourceSansPro-Regular.ttf
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
