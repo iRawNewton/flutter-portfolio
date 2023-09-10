@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_portfolio/screens/about_me/about.dart';
-import 'package:flutter_portfolio/screens/objective/career_objective.dart';
 import 'package:badges/badges.dart' as badges;
 
 class MyHomePage extends StatefulWidget {
