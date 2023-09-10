@@ -6,6 +6,7 @@ import 'package:timeline_tile/timeline_tile.dart';
 class CustomTimelineTile extends StatelessWidget {
   final bool isFirst, isLast, isPast;
   final String instituteName, degree, year, grade;
+  final IconData iconData;
   const CustomTimelineTile({
     super.key,
     required this.isFirst,
@@ -15,6 +16,7 @@ class CustomTimelineTile extends StatelessWidget {
     required this.degree,
     required this.year,
     required this.grade,
+    required this.iconData,
   });
 
   @override
@@ -42,6 +44,7 @@ class CustomTimelineTile extends StatelessWidget {
       endChild: Column(
         children: [
           EventCard(
+            iconData: iconData,
             instituteName: instituteName,
             degree: degree,
             year: year,

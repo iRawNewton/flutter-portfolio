@@ -22,7 +22,7 @@ class _AboutUsDividerState extends State<AboutUsDivider> {
             Text(
               widget.title,
               style: GoogleFonts.poppins(
-                fontSize: 14.0,
+                fontSize: 20.0,
                 color: accentColor,
               ),
             ),

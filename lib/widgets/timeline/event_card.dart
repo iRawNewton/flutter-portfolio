@@ -5,6 +5,7 @@ import '../custom_text.dart';
 
 class EventCard extends StatelessWidget {
   final String instituteName, degree, year, grade;
+  final IconData iconData;
 
   const EventCard({
     super.key,
@@ -12,6 +13,7 @@ class EventCard extends StatelessWidget {
     required this.degree,
     required this.year,
     required this.grade,
+    required this.iconData,
   });
 
   @override
@@ -24,10 +26,10 @@ class EventCard extends StatelessWidget {
         children: [
           Row(
             children: [
-              const SizedBox(
+              SizedBox(
                 width: 20.0,
                 child: Icon(
-                  Icons.school,
+                  iconData,
                   color: accentColor,
                 ),
               ),
