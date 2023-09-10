@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_portfolio/screens/test/webviews.dart';
 
 import 'screens/home/home_page.dart';
 
@@ -22,7 +21,8 @@ class MyApp extends StatelessWidget {
         primaryColor: const Color(0xffE91E63),
         dividerColor: const Color(0xffBDBDBD),
       ),
-      home: const WebViews(),
+      // home: const WebViews(),
+      home: const MyHomePage(),
     );
   }
 }
